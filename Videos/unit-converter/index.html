@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="upper-page-container">
+            <div class="heading-container">
+                <div class="heading"> Metric/Imperial Unit Conversion </div>
+            </div>
+            <div class="input-container">
+                <input type="text" inputmode="numeric" id="user-value">
+            </div>
+            <div class="convert-button-container"  id="convert-btn">
+                <div class="convert-button">Convert</div>
+            </div>
+        </div>
+        <div class="lower-page-container">
+            <div class="conversion-container">
+                <div class="conversion-header">Length (Meter/Feet)</div>
+                <div class="conversion-description" id="length-unit">one</div>
+            </div>
+            <div class="conversion-container">
+                <div class="conversion-header">Volume (Liters/Gallons)
+                </div>
+                <div class="conversion-description" id="volume-unit"></div>
+            </div>
+            <div class="conversion-container">
+                <div class="conversion-header">Mass (Kilograms/Pounds)</div>
+                <div class="conversion-description" id="mass-unit"></div>
+            </div>
+        </div>
+    </div> 
+     <script src="main.js"></script>
 </body>
 </html>
